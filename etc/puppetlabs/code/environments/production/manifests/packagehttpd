@@ -1,0 +1,7 @@
+package { 'httpd':
+  ensure => 'latest',
+}
+service { 'httpd':
+  ensure => 'started',
+  enable => 'true',
+}

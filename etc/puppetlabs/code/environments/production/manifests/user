@@ -1,0 +1,10 @@
+user { 'seema':
+  ensure           => 'present',
+  comment          => 'seema',
+  home             => '/home/seema',
+  password         => 'seema',
+  password_max_age => '99999',
+  password_min_age => '0',
+  shell            => '/bin/bash',
+  uid              => '4000',
+}
